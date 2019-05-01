@@ -23,6 +23,16 @@ public class MainActivity extends AppCompatActivity {
                 // gotoArmory.putExtra("com.example.nyapplication.SOMETHING", "HELLO WORLD!");
                 startActivity(gotoArmory);
 
+                // Creates the action for when the button is pressed to make it go to a new activity page.
+                Button homepageUnitsButton = (Button) findViewById(R.id.homepageUnitsButton);
+                homepageUnitsButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent gotoUnits = new Intent(getApplicationContext(), UnitsPageActivity.class);
+                        startActivity(gotoUnits);
+
+                    }
+                });
             }
         });
     }
