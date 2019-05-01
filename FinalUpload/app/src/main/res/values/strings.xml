@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Application Information -->
+    <string name="app_name">FFBE Armory</string>
+
+    <!-- FFBE Armory Home Page -->
+    <string name="ApplicationLogo">This is the FFBE Armory Application Logo</string>
+    <string name="homeButtonUnits">Units</string>
+    <string name="homeButtonEquipment">Equipment</string>
+
+    <!-- FFBE Equipment Classes -->
+    <string name="EquipmentClassSelectionTitle">Select The Weapon Type You Want to View</string>
+    <string name="EquipmentClassAxe">Axes</string>
+    <string name="EquipmentClassAxeDescription">Axe Category Button Image</string>
+    <string name="EquipmentClassBow">Bows</string>
+    <string name="EquipmentClassDaggers">Daggers</string>
+    <string name="EquipmentClassFists">Fists</string>
+    <string name="EquipmentClassGreatSwords">Great Swords</string>
+    <string name="EquipmentClassGuns">Guns</string>
+    <string name="EquipmentClassHammers">Hammers</string>
+    <string name="EquipmentClassHarps">Harps</string>
+    <string name="EquipmentClassKatanas">Katanas</string>
+    <string name="EquipmentClassMaces">Maces</string>
+    <string name="EquipmentClassRods">Rods</string>
+    <string name="EquipmentClassSpears">Spears</string>
+    <string name="EquipmentClassStaffs">Staffs</string>
+    <string name="EquipmentClassSwords">Swords</string>
+    <string name="EquipmentClassThrowing">Throwing</string>
+    <string name="EquipmentClassWhips">Whips</string>
+
+    <!-- FFBE Unit Series -->
+    <string name="SeriesSelectionTitle">Select The Series The Unit You Want to Know About is From</string>
+    <string name="UnitSeriesFFBE">Final Fantasy Brave Exvius</string>
+    <string name="UnitSeriesFFTactics">Final Fantasy Tactics</string>
+    <string name="UnitSeriesFFType0">Final Fantasy Type-0</string>
+    <string name="UnitSeriesFF1">Final Fantasy 1</string>
+    <string name="UnitSeriesFF2">Final Fantasy 2</string>
+    <string name="UnitSeriesFF3">Final Fantasy 3</string>
+    <string name="UnitSeriesFF4">Final Fantasy 4</string>
+    <string name="UnitSeriesFF5">Final Fantasy 5</string>
+    <string name="UnitSeriesFF6">Final Fantasy 6</string>
+    <string name="UnitSeriesFF7">Final Fantasy 7</string>
+    <string name="UnitSeriesFF8">Final Fantasy 8</string>
+    <string name="UnitSeriesFF9">Final Fantasy 9</string>
+    <string name="UnitSeriesFF10">Final Fantasy 10</string>
+    <string name="UnitSeriesFF11">Final Fantasy 11</string>
+    <string name="UnitSeriesFF12">Final Fantasy 12</string>
+    <string name="UnitSeriesFF13">Final Fantasy 13</string>
+    <string name="UnitSeriesFF14">Final Fantasy 14</string>
+    <string name="UnitSeriesFF15">Final Fantasy 15</string>
+
+    <string name="RainDescription">
+        A knight of the Kingdom of Grandshelt. A precocious pilot who was entrusted with command of an airship at the tender age of eighteen, he maintains a carefree—some might say lackadaisical—demeanor. He has the unwavering trust of the king and his nation\'s people, in large part due to his father\'s reputation as a stalwart knight of the kingdom.
+    </string>
+    <string name="LassswordDescription">This is a placeholder</string>
+
+    <!-- Axes -->
+    <string name="battle_axe">Battle Axe</string>
+    <string name="great_axe">Great Axe</string>
+    <string name="ogrekiller">Ogrekiller</string>
+    <string name="iron_axe">Iron Axe</string>
+    <string name="mythril_axe">Mythril Axe</string>
+    <string name="giants_axe">Giant\'s Axe</string>
+    <string name="rune_axe">Rune Axe</string>
+    <string name="golden_axe">Golden Axe</string>
+    <string name="demon_axe">Demon Axe</string>
+    <string name="platinum_axe">Platinum Axe</string>
+    <string name="gigantaxe">Gigantaxe</string>
+    <string name="gigas_axe">Gigas Axe</string>
+    <string name="leucos_voulge">Leucos Voulge</string>
+    <string name="king_of_beasts">King of Beasts</string>
+    <string name="ulfhedinn_axe"> Ulfhedinn Axe</string>
+    <string name="thunder_axe_keraunos">Thunder Axe Keraunos</string>
+    <string name="moon_axe">Moon Axe</string>
+    <string name="viking_axe">Viking Axe</string>
+    <string name="refined_engine_axe">Refined Engine Axe</string>
+    <string name="ignition_axe">Ignition Axe</string>
+
+
+</resources>
