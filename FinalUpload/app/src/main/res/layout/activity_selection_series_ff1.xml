@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionSeriesFF1">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="92dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgB_ff1_garland"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/EquipmentClassAxeDescription"
+            app:srcCompat="@drawable/ff1_garland" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff1_sarah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff1_garland"
+            app:srcCompat="@drawable/ff1_sarah" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff1_warrior_of_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff1_sarah"
+            app:srcCompat="@drawable/ff1_warrior_of_light" />
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

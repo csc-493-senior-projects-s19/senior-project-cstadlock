@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionSeriesFF2">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="92dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgB_ff2_emperor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/EquipmentClassAxeDescription"
+            app:srcCompat="@drawable/ff2_emperor" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff2_firion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff2_emperor"
+            app:srcCompat="@drawable/ff2_firion" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff2_guy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff2_firion"
+            app:srcCompat="@drawable/ff2_guy" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff2_leon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff2_guy"
+            app:srcCompat="@drawable/ff2_leon" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff2_maria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff2_leon"
+            app:srcCompat="@drawable/ff2_maria" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff2_paul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff2_maria"
+            app:srcCompat="@drawable/ff2_paul" />
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

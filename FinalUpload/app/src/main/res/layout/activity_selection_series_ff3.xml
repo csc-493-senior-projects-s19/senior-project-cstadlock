@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionSeriesFF3">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="92dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_arc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/EquipmentClassAxeDescription"
+            app:srcCompat="@drawable/ff3_arc" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_aria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_arc"
+            app:srcCompat="@drawable/ff3_aria" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_cloud_of_darkness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_aria"
+            app:srcCompat="@drawable/ff3_cloud_of_darkness" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_dark_knight_luneth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_cloud_of_darkness"
+            app:srcCompat="@drawable/ff3_dark_knight_luneth" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_desch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_dark_knight_luneth"
+            app:srcCompat="@drawable/ff3_desch" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_doga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_desch"
+            app:srcCompat="@drawable/ff3_doga" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_ingus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_doga"
+            app:srcCompat="@drawable/ff3_ingus" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_luneth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_ingus"
+            app:srcCompat="@drawable/ff3_luneth" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_onion_knight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_luneth"
+            app:srcCompat="@drawable/ff3_onion_knight" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_onion_knight_refia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_onion_knight"
+            app:srcCompat="@drawable/ff3_onion_knight_refia" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_refia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_onion_knight_refia"
+            app:srcCompat="@drawable/ff3_refia" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_sara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_refia"
+            app:srcCompat="@drawable/ff3_sara" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff3_unei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff3_sara"
+            app:srcCompat="@drawable/ff3_unei" />
+
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

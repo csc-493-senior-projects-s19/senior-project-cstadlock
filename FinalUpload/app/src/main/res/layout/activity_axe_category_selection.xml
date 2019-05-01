@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AxeCategorySelection">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="92dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/battle_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/battle_axe"/>
+
+        <Button
+            android:id="@+id/great_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/battle_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/great_axe" />
+
+        <Button
+            android:id="@+id/ogrekiller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/great_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ogrekiller" />
+
+        <Button
+            android:id="@+id/iron_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ogrekiller"
+            android:layout_centerHorizontal="true"
+            android:text="@string/iron_axe" />
+
+        <Button
+            android:id="@+id/mythril_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iron_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/mythril_axe" />
+
+        <Button
+            android:id="@+id/giants_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mythril_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/giants_axe" />
+
+        <Button
+            android:id="@+id/rune_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/giants_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/rune_axe" />
+
+        <Button
+            android:id="@+id/golden_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rune_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/golden_axe" />
+
+        <Button
+            android:id="@+id/demon_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/golden_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/demon_axe" />
+
+        <Button
+            android:id="@+id/platinum_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/demon_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/platinum_axe" />
+
+        <Button
+            android:id="@+id/gigantaxe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/platinum_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/gigantaxe" />
+
+        <Button
+            android:id="@+id/gigas_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gigantaxe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/gigas_axe" />
+
+        <Button
+            android:id="@+id/leucos_voulge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gigas_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/leucos_voulge" />
+
+        <Button
+            android:id="@+id/king_of_beasts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/leucos_voulge"
+            android:layout_centerHorizontal="true"
+            android:text="@string/king_of_beasts" />
+
+        <Button
+            android:id="@+id/ulfhedinn_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/king_of_beasts"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ulfhedinn_axe" />
+
+        <Button
+            android:id="@+id/thunder_axe_keraunos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulfhedinn_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/thunder_axe_keraunos" />
+
+        <Button
+            android:id="@+id/moon_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thunder_axe_keraunos"
+            android:layout_centerHorizontal="true"
+            android:text="@string/moon_axe" />
+
+        <Button
+            android:id="@+id/viking_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/moon_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/viking_axe" />
+
+        <Button
+            android:id="@+id/refined_engine_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viking_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/refined_engine_axe" />
+
+        <Button
+            android:id="@+id/ignition_axe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/refined_engine_axe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ignition_axe" />
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

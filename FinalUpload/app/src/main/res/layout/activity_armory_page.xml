@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArmoryPageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="92dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/PickYourWepType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/EquipmentClassSelectionTitle" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_axes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/EquipmentClassAxeDescription"
+                android:layout_below="@+id/PickYourWepType"
+                app:srcCompat="@drawable/axe_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_bows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_axes"
+                app:srcCompat="@drawable/bow_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_daggers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_bows"
+                app:srcCompat="@drawable/dagger_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_fists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_daggers"
+                app:srcCompat="@drawable/fist_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_greatswords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_fists"
+                app:srcCompat="@drawable/greatsword_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_guns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_greatswords"
+                app:srcCompat="@drawable/gun_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_hammers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_guns"
+                app:srcCompat="@drawable/hammer_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_harps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_hammers"
+                app:srcCompat="@drawable/harp_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_katanas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_harps"
+                app:srcCompat="@drawable/katana_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_maces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_katanas"
+                app:srcCompat="@drawable/mace_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_rods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_maces"
+                app:srcCompat="@drawable/rods_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_spears"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_rods"
+                app:srcCompat="@drawable/spear_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_staffs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_spears"
+                app:srcCompat="@drawable/staff_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_swords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_staffs"
+                app:srcCompat="@drawable/sword_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_throwing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_swords"
+                app:srcCompat="@drawable/throwing_category" />
+
+            <ImageButton
+                android:id="@+id/imgB_cat_whips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgB_cat_throwing"
+                app:srcCompat="@drawable/whip_category" />
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

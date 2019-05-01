@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionSeriesFF6">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="92dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_biggs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/EquipmentClassAxeDescription"
+            app:srcCompat="@drawable/ff6_biggs" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_celes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_biggs"
+            app:srcCompat="@drawable/ff6_celes" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_cyan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_celes"
+            app:srcCompat="@drawable/ff6_cyan" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_edgar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_cyan"
+            app:srcCompat="@drawable/ff6_edgar" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_gau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_edgar"
+            app:srcCompat="@drawable/ff6_gau" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_kefka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_gau"
+            app:srcCompat="@drawable/ff6_kefka" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_leo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_kefka"
+            app:srcCompat="@drawable/ff6_leo" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_locke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_leo"
+            app:srcCompat="@drawable/ff6_locke" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_sabin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_locke"
+            app:srcCompat="@drawable/ff6_sabin" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_setzer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_sabin"
+            app:srcCompat="@drawable/ff6_setzer" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_setzer"
+            app:srcCompat="@drawable/ff6_shadow" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_terra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_shadow"
+            app:srcCompat="@drawable/ff6_terra" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_trance_terra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_terra"
+            app:srcCompat="@drawable/ff6_trance_terra" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff6_wedge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff6_trance_terra"
+            app:srcCompat="@drawable/ff6_wedge" />
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

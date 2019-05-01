@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionSeriesFF4">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="92dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_atoning_dragoon_kain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/EquipmentClassAxeDescription"
+            app:srcCompat="@drawable/ff4_atoning_dragoon_kain" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_barbariccia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_atoning_dragoon_kain"
+            app:srcCompat="@drawable/ff4_barbariccia" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_cagnazzo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_barbariccia"
+            app:srcCompat="@drawable/ff4_cagnazzo" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_cecil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_cagnazzo"
+            app:srcCompat="@drawable/ff4_cecil" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_dark_knight_cecil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_cecil"
+            app:srcCompat="@drawable/ff4_dark_knight_cecil" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_edge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_dark_knight_cecil"
+            app:srcCompat="@drawable/ff4_edge" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_edward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_edge"
+            app:srcCompat="@drawable/ff4_edward" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_golbez"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_edward"
+            app:srcCompat="@drawable/ff4_golbez" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_kain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_golbez"
+            app:srcCompat="@drawable/ff4_kain" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_king_giott"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_kain"
+            app:srcCompat="@drawable/ff4_king_giott" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_pure_summoner_rydia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_king_giott"
+            app:srcCompat="@drawable/ff4_pure_summoner_rydia" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_rosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_pure_summoner_rydia"
+            app:srcCompat="@drawable/ff4_rosa" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_rubicante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_rosa"
+            app:srcCompat="@drawable/ff4_rubicante" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_rydia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_rubicante"
+            app:srcCompat="@drawable/ff4_rydia" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_scarmiglione"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_rydia"
+            app:srcCompat="@drawable/ff4_scarmiglione" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_tellah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_scarmiglione"
+            app:srcCompat="@drawable/ff4_tellah" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff4_yang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff4_tellah"
+            app:srcCompat="@drawable/ff4_yang" />
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".UnitsPageActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="92dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/PickYourSeries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/SeriesSelectionTitle" />
+
+        <Button
+            android:id="@+id/button_series_ff1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PickYourSeries"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF1"/>
+
+        <Button
+            android:id="@+id/button_series_ff2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff1"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF2" />
+            <!--android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"-->
+
+        <Button
+            android:id="@+id/button_series_ff3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff2"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF3" />
+
+        <Button
+            android:id="@+id/button_series_ff4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff3"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF4" />
+
+        <Button
+            android:id="@+id/button_series_ff5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff4"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF5" />
+
+        <Button
+            android:id="@+id/button_series_ff6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff5"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF6" />
+
+        <Button
+            android:id="@+id/button_series_ff7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff6"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF7" />
+
+        <Button
+            android:id="@+id/button_series_ff8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff7"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF8" />
+
+        <Button
+            android:id="@+id/button_series_ff9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff8"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF9" />
+
+        <Button
+            android:id="@+id/button_series_ff10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff9"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF10" />
+
+        <Button
+            android:id="@+id/button_series_ff11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff10"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF11" />
+
+        <Button
+            android:id="@+id/button_series_ff12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff11"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF12" />
+
+        <Button
+            android:id="@+id/button_series_ff13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff12"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF13" />
+
+        <Button
+            android:id="@+id/button_series_ff14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff13"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF14" />
+
+        <Button
+            android:id="@+id/button_series_ff15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff14"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFF15" />
+
+        <Button
+            android:id="@+id/button_series_ffbe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_fftype0"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFFBE" />
+
+        <Button
+            android:id="@+id/button_series_fftactics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_ff15"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFFTactics" />
+
+        <Button
+            android:id="@+id/button_series_fftype0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_series_fftactics"
+            android:layout_centerHorizontal="true"
+            android:text="@string/UnitSeriesFFType0" />
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

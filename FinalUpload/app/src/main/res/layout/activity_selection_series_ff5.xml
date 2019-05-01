@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionSeriesFF5">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="92dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgB_ff5_bartz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/EquipmentClassAxeDescription"
+            app:srcCompat="@drawable/ff5_bartz" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff5_exdeath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff5_bartz"
+            app:srcCompat="@drawable/ff5_exdeath" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff5_faris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff5_exdeath"
+            app:srcCompat="@drawable/ff5_faris" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff5_galuf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff5_faris"
+            app:srcCompat="@drawable/ff5_galuf" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff5_gilgamesh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff5_galuf"
+            app:srcCompat="@drawable/ff5_gilgamesh" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff5_krile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff5_gilgamesh"
+            app:srcCompat="@drawable/ff5_krile" />
+
+        <ImageButton
+            android:id="@+id/imgB_ff5_lenna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgB_ff5_krile"
+            app:srcCompat="@drawable/ff5_lenna" />
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
